@@ -7,9 +7,24 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CoreAudio/CoreAudio.h>
+#import <EventKit/EventKit.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+#import "iTunes.h"
+#import "SetAlarmController.h"
 
-@property (assign) IBOutlet NSWindow *window;
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+    iTunesApplication* iTunes;
+    NSStatusItem *statusItem;
+    SetAlarmController *setAlarmWindow;
+    NSTimer *curTimer;
+}
+@property (weak) IBOutlet NSMenuItem *setItem;
+@property (weak) IBOutlet NSMenuItem *resetItem;
 
+- (IBAction)setAlarm:(id)sender;
+
+@property (weak) IBOutlet NSMenu *tray;
 @end
+
+
