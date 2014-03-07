@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D06D3EF18CA3C2F0082D3D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D06D3EE18CA3C2F0082D3D5 /* Images.xcassets */; };
+		3D06D3F118CA608F0082D3D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D06D3F018CA608F0082D3D5 /* README.md */; };
 		E114A9F7187F108B00C6D5DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E114A9F6187F108B00C6D5DA /* Cocoa.framework */; };
 		E114AA01187F108B00C6D5DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E114A9FF187F108B00C6D5DA /* InfoPlist.strings */; };
 		E114AA03187F108B00C6D5DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E114AA02187F108B00C6D5DA /* main.m */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3D06D3EE18CA3C2F0082D3D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D06D3F018CA608F0082D3D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		E114A9F3187F108B00C6D5DA /* alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E114A9F6187F108B00C6D5DA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E114A9F9187F108B00C6D5DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 				E114AA1A187F108B00C6D5DA /* alarmTests */,
 				E114A9F5187F108B00C6D5DA /* Frameworks */,
 				E114A9F4187F108B00C6D5DA /* Products */,
+				3D06D3F018CA608F0082D3D5 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D06D3F118CA608F0082D3D5 /* README.md in Resources */,
 				E114AA01187F108B00C6D5DA /* InfoPlist.strings in Resources */,
 				3D06D3EF18CA3C2F0082D3D5 /* Images.xcassets in Resources */,
 				E114AA341880705000C6D5DA /* SetAlarmController.xib in Resources */,
