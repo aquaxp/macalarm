@@ -233,11 +233,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = mindworm;
-				TargetAttributes = {
-					E114AA13187F108B00C6D5DA = {
-						TestTargetID = E114A9F2187F108B00C6D5DA;
-					};
-				};
 			};
 			buildConfigurationList = E114A9EE187F108B00C6D5DA /* Build configuration list for PBXProject "alarm" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -446,7 +441,6 @@
 		E114AA28187F108B00C6D5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alarm.app/Contents/MacOS/alarm";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -460,7 +454,6 @@
 				);
 				INFOPLIST_FILE = "alarmTests/alarmTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -468,7 +461,6 @@
 		E114AA29187F108B00C6D5DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alarm.app/Contents/MacOS/alarm";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -478,7 +470,6 @@
 				GCC_PREFIX_HEADER = "alarm/alarm-Prefix.pch";
 				INFOPLIST_FILE = "alarmTests/alarmTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
